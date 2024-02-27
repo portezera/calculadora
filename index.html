@@ -10,7 +10,7 @@
             max-width: 300px;
             margin: 0 auto;
             padding: 10px;
-            border: 1px solid cadetblue;
+            border: 1px solid rgb(0, 0, 0);
             border-radius: 5px;
             height: 30px;
         }
@@ -21,9 +21,17 @@
             max-width: 300px;
             margin: 0 auto;
             padding: 10px;
-            border: 1px solid bisque;
+            border: 1px solid rgb(0, 0, 0);
             border-radius: 5px;
         }
+        button { padding: 10px;
+             background-color: rgb(219, 209, 196);
+             border: 1px solid rgb(0, 0, 0); 
+             border-radius: 5px; cursor:
+             pointer; }
+         button:active{
+             background-color: rgb(167, 253, 127); 
+            }
     </style>
 </head> 
 <body>
@@ -50,5 +58,6 @@
         <button onclick="calculateResult()">=</button>
         <button onclick="appendToDisplay('.')">,</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
